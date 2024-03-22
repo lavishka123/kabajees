@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Unbounded", sans-serif;
+    
+}
+.home {
+    background-image: url(output-onlinegiftools\ \(5\).gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+.text{
+    text-align: center;
+    
+}
+.cards {
+    display: flex !important;
+}
+.card-title {
+    text-align: center;
+    background-color: rgb(160, 160, 83);
+}
+/* .slider{
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+.slide{
+    flex: 0 0 33.33%;
+    scroll-snap-align: start;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+} */
+.call{
+    position: relative;
+    padding: 20px;
+}
+.bg-warning{
+    background-color: yellow;
+    padding: 5px;
+}
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.discount{
+    padding: 25px;
+
+}
+.location{
+    padding: 20px;
+}
+.locations{
+    padding: 20px;
+}
+.place{
+    display: flex;
+}
